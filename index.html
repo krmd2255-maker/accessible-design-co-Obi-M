@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Design Co. | Welcome</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>This is the First Per Scholas RTT-50 Accessible Website Design</h1>
+    <header class="site-header">
+        <div class="container header-content">
+
+            <a href="#home" class="logo" aria-label="Accessible Design Co. home">
+                Accessible Design Co.
+            </a>
+
+        <nav class="main-navigation"
+                 role="navigation"
+                 aria-label="Main navigation">
+
+              <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#blog">Blog</a></li>
+
+                </ul>
+
+        </nav>
+        </header>
+
+        <main>
+            <section class="hero" id="home">
+	        <div class="container hero-content">
+
+            <p class="hero-label">Welcome to Accessible Design Co.</p>
+		
+		    <h1>Designing Digital Experiences for All</h>
+
+                 <p>
+                    We develop user friendly, accessible, and responsive
+                    websites that help our users connect with important information
+                    and services.
+                </p>
+
+            <a href="#contact" class="button">Contact Our Team</a>
+
+
+
+            </div>
+        </section>
+
+               <section class="about section-padding" id="about">
+            <div class="container">
+
+                <h2>About Us</h2>
+
+                <p>
+                    At Accessible Design Co., we believe that everyone
+                    should be able to use and enjoy the internet.
+                    Our goal is to create digital experiences that are
+                    easy to understand, simple to navigate, and accessible
+                    to people with different abilities and needs.
+                </p>
+
+                                <p>
+                    We combine thoughtful design, modern technology,
+                    and accessibility principles to make websites
+                    work well on computers, tablets, and mobile phones.
+                </p>
+
+            </div>
+             </section>
+
+
+                     <section class="services section-padding" id="services">
+            <div class="container">
+
+                <h2>Our Services</h2>
+
+                <p class="section-intro">
+                    We provide practical digital solutions to help
+                    businesses create better online experiences.
+                </p>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true"></span>
+
+                        <h3>Web Design</h3>
+
+                        <p>
+                            We design attractive and easy-to-use websites
+                            that help visitors find the information they need.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <span class="service-icon" aria-hidden="true"></span>
+
+
+                    <h3>Accessibility</h3>
+
+                       <p>
+                            We apply accessibility principles so people
+                            with different abilities can use websites
+                            more easily.
+                        </p>
+                    </article>
+
+                <article class="service-card">
+                        <span class="service-icon" aria-hidden="true"></span>
+
+                        <h3>Responsive Design</h3>
+
+                             <p>
+                            We build layouts that adjust to different
+                            screen sizes, including computers, tablets,
+                            and smartphones.
+                        </p>
+                    </article>
+
+                    </div>
+                </div>
+                    </section>
+        
+            <section class="contact section-padding" id="contact">
+            <div class="container">
+
+                <h2>Contact Us</h2>
+
+                <p class="section-intro">
+                    Have a question or want more information?
+                    Send us a message.
+                </p>
+
+                          <form class="contact-form" action="#" method="post">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+
+                     <input
+                            type="text"  id="name" name="name"  autocomplete="name"
+                            required
+                        >
+                    </div>
+
+
+                            <div class="form-group">
+                        <label for="email">Email Address</label>
+
+                        <input
+                            type="email"  id="email"  name="email" autocomplete="email"
+                            aria-describedby="email-help"
+                            
+                        >
+
+                        <h6 id="email-help">
+                            Enter an email address where we can contact you.
+                        </h6>
+                    </div>
+
+                            <div class="form-group">
+                        <label for="subject">Subject</label>
+
+                        <input
+                            type="text" id="subject" name="subject"
+                            
+                        >
+                    </div>
+
+                            <div class="form-group">
+                        <label for="message">Your Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            required
+                        ></textarea>
+                    </div>
+
+
+                                        <button type="submit" class="button">
+                        Send Message
+                    </button>
+
+                </form>
+
+              
+
+            </div>
+        </section>
+        </main>
+
+                <footer class="site-footer">
+        <div class="container footer-content">
+
+            <p>&copy; 2026 Accessible Design Co. All rights reserved.</p>
+
+            <p>
+                Email:
+                <a href="mailto:info@accessibledesign.obi">
+                    info@accessibledesign.obi
+                </a>
+
+                </div>
+    </footer>
+
+</body>
+</html>
